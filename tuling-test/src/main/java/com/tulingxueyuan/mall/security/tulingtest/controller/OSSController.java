@@ -24,8 +24,8 @@ public class OSSController {
     @CrossOrigin
     @RequestMapping("/oss/policy")
     public Map<String,String> policy(){
-        String accessId = "LTAI5tMx69sUe9JuHwTxw4si"; // 请填写您的AccessKeyId。
-        String accessKey = "kb2y0sTiWIADhw5g2uBtlfNBkqMj9G"; // 请填写您的AccessKeySecret。
+        String accessId = "LTAI5tMx69sUe9J"; // 请填写您的AccessKeyId。
+        String accessKey = "kb2y0sTiWIADhw5"; // 请填写您的AccessKeySecret。
         String endpoint = "oss-cn-hangzhou.aliyuncs.com"; // 请填写您的 endpoint。
         String bucket = "tuling-zm"; // 请填写您的 bucketname 。
         String host = "https://" + bucket + "." + endpoint; // host的格式为 bucketname.endpoint

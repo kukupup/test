@@ -18,8 +18,8 @@ logging:
 aliyun:
   oss:
     endpoint: oss-cn-hangzhou.aliyuncs.com # oss对外服务的访问域名
-    accessKeyId: LTAI5tMx69sUe9JuHwTxw4si # 访问身份验证中用到用户标识
-    accessKeySecret: kb2y0sTiWIADhw5g2uBtlfNBkqMj9G # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    accessKeyId: LTAI5tMx69sUe # 访问身份验证中用到用户标识
+    accessKeySecret: kb2y0sTiW # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
     bucketName: tuling-zm # oss的存储空间
     policy:
       expire: 300 # 签名有效期(S)

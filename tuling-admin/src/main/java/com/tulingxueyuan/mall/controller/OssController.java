@@ -35,6 +35,7 @@ public class OssController {
         OssPolicyResult result = ossService.policy();
         return CommonResult.success(result);
     }
+    //执行成功后
     @RequestMapping(value = "/Success",method = RequestMethod.GET)
     @ResponseBody
     public CommonResult success(@RequestParam(value = "url") String url){
@@ -44,6 +45,8 @@ public class OssController {
        return CommonResult.success("Downurl");
 
     }
+    //添加注释
     private String testUpload;
+    
 
 }

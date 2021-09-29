@@ -25,9 +25,9 @@ class TulingTestApplicationTests {
         // 1. 创建RAM 子账户
         // 2. 获得accessKeyId  accessKeySecret
         // 3. 给子用户设置权限
-        String accessKeyId = "LTAI5tMx69sUe9JuHwTxw4si";
+        String accessKeyId = "LTAI5tMx69sUe9JuHwT";
 
-        String accessKeySecret = "kb2y0sTiWIADhw5g2uBtlfNBkqMj9G";
+        String accessKeySecret = "kb2y0sTiWIADhw5g2uBtlfG";
 
 
         // 创建OSSClient实例。

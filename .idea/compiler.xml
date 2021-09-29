@@ -10,8 +10,8 @@
         <module name="tuling-common" />
         <module name="tuling-admin" />
         <module name="tuling-test" />
-        <module name="tuling-security" />
         <module name="tuling-portal" />
+        <module name="tuling-security" />
         <module name="tuling-mpbg" />
       </profile>
     </annotationProcessing>

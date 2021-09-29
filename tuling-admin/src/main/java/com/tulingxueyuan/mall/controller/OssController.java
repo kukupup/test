@@ -44,5 +44,6 @@ public class OssController {
        return CommonResult.success("Downurl");
 
     }
+    private String testUpload;
 
 }

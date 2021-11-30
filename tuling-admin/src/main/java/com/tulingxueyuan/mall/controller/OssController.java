@@ -8,6 +8,7 @@ import com.tulingxueyuan.mall.service.impl.OssServiceImpl;
 import com.tulingxueyuan.mall.vo.ResultURL;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +28,7 @@ public class OssController {
     @Autowired
     private PmsSkuStockService pmsSkuStockService;
 
-
+     //测试修改增加注解url地址 githup上传
     @ApiOperation(value = "oss上传签名生成")
     @RequestMapping(value = "/policy", method = RequestMethod.GET)
     @ResponseBody
@@ -38,7 +39,7 @@ public class OssController {
     //执行成功后
     @RequestMapping(value = "/Success",method = RequestMethod.GET)
     @ResponseBody
-    public CommonResult success(@RequestParam(value = "url") String url){
+    public CommonResult success(@ApiParam(value = "url地址")@RequestParam(value = "url") String url){
         System.out.println(url);
         ResultURL resultURL=new ResultURL();
         resultURL.setUrl(url);
